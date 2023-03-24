@@ -4,8 +4,8 @@
   "description": "Skinscash",
   "scripts": {
     "watch": "concurrently \"npm run watch:scss\" \"npm run start\"",
-    "start": "browser-sync start --server --files \"src/*.scss, *.html\" --no-open",
-    "watch:scss": "node-sass --watch --output-style compressed src/main.scss build/style.css"
+    "start": "browser-sync start --server --files \"src/scss/*.scss, *.html\" --no-open",
+    "watch:scss": "node-sass --watch --output-style compressed src/scss/main.scss build/style.css"
   },
   "devDependencies": {
     "browser-sync": "^2.28.3",
