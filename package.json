@@ -17,12 +17,9 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-watch": "^5.0.1",
     "natives": "^1.1.6",
-    "node-sass": "^8.0.0"
+    "sass": "^1.60.0"
   },
   "browserslist": [
     "last 4 versions"
-  ],
-  "dependencies": {
-    "sass": "^1.60.0"
-  }
+  ]
 }
