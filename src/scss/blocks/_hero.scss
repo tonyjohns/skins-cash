@@ -1,0 +1,28 @@
+.hero {
+    // .hero__wrapper
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1200px;
+    }
+
+    // .hero__nav
+
+    &__nav {}
+
+    // .hero__nav--games
+
+    &__nav--games {}
+
+    // .hero__nav--skins
+
+    &__nav--skins {}
+
+    // .hero__bot-nested-list
+
+    &__bot-nested-list {
+        visibility: hidden;
+    }
+}
