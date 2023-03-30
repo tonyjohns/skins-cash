@@ -4,7 +4,7 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 4px;
     gap: 8px;
@@ -16,8 +16,8 @@
 
     /* Background color/color-layer-alt-1 */
 
-    background: #080808;
-    border-radius: 100px;
+    background: #0B1C28;
+    border-radius: 10px;
 
     &__item {}
 

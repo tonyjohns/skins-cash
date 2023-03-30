@@ -5,7 +5,7 @@ const browserSync = require('browser-sync').create();
 
 // Sass compilation task
 gulp.task('sass', () => {
-    return gulp.src('./src/scss/*.scss')
+    return gulp.src('./src/scss/**/*.scss')
         .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(gulp.dest('./build'))

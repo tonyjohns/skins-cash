@@ -1,16 +1,14 @@
 .hero {
     // .hero__wrapper
 
-    &__wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 1200px;
-    }
+    &__wrapper {}
 
     // .hero__nav
 
-    &__nav {}
+    &__nav {
+        display: flex;
+        justify-content: center;
+    }
 
     // .hero__nav--games
 
@@ -25,4 +23,6 @@
     &__bot-nested-list {
         visibility: hidden;
     }
+
+    &__bg-img {}
 }
