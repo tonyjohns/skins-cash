@@ -1,22 +1,17 @@
 .hero-menu {
 
     /* Auto layout */
-
+    width: 730px;
+    height: 45px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 4px;
-    gap: 8px;
-
-    position: absolute;
-    width: 657px;
-    height: 46px;
-    top: 16px;
-
+    margin-top: 16px;
+    background-color: #0B1C28;
     /* Background color/color-layer-alt-1 */
 
-    background: #0B1C28;
     border-radius: 10px;
 
     &__item {}
@@ -28,6 +23,34 @@
     }
 
     &__item--high {}
+
+    &__item--high a {
+        width: 138px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0B1C28;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #B6BDCC;
+    }
+
+    &__item--high a:hover {
+        width: 138px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #414F68;
+        color: #0DE5A0;
+        border-radius: 8px;
+    }
 
     // .hero-menu__submenu
 
