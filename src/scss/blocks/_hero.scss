@@ -22,6 +22,8 @@
 
     &__bot-nested-list {
         visibility: hidden;
+        display: flex;
+        flex-direction: row;
     }
 
     &__bg-img {
