@@ -44,7 +44,7 @@
         font-size: 17px;
         line-height: 23px;
         /* identical to box height */
-        text-transform: uppercase;
+        text-transform: capitalize;
         color: #FFFFFF;
     }
 
@@ -58,7 +58,7 @@
         font-size: 17px;
         line-height: 23px;
         /* identical to box height */
-        text-transform: uppercase;
+        text-transform: capitalize;
         color: #FFB900;
     }
 
@@ -96,30 +96,59 @@
 
     &__submenu {
         display: none;
-    }
-
-    &__item--bot:hover &__submenu {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 14px 11px;
-        gap: 13px;
+        align-items: start;
+        justify-content: start;
 
         position: absolute;
         width: 110px;
 
         background: rgba(11, 28, 40, 0.82);
         border-radius: 8px;
+        margin-top: 16px;
+    }
+
+    &__item--bot:hover &__submenu {
+        display: block;
     }
 
     // .hero-menu__item--sub
 
+    &__item--sub {
+        margin: 5px 0;
+    }
+
+    &__item--sub:hover {
+        background: rgba(217, 217, 217, 0.11);
+    }
+
+
     &__item--sub a {
-        padding: 0 11px;
+        width: 110px;
+        height: 35px;
+        display: flex;
+        justify-content: start;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: capitalize;
+        padding-left: 10px;
+
+        color: #FFFFFF;
     }
 
     &__item--sub a:hover {
-        padding: 0 11px;
-        background: rgba(217, 217, 217, 0.11);
+        font-family: 'Open Sans';
+        display: flex;
+        justify-content: start;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: capitalize;
+
+        padding-left: 10px;
+        color: #FFB900;
     }
 }
