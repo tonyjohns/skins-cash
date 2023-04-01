@@ -1,5 +1,7 @@
 .hero {
-    // .hero__wrapper
+    background-image: url("./../src/img/csgo_banner.png");
+    background-size: cover;
+    min-height: 495px;
 
     &__wrapper {}
 
@@ -17,14 +19,6 @@
     // .hero__nav--skins
 
     &__nav--skins {}
-
-    // .hero__bot-nested-list
-
-    &__bot-nested-list {
-        visibility: hidden;
-        display: flex;
-        flex-direction: row;
-    }
 
     &__bg-img {
         position: fixed;

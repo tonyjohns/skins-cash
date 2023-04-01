@@ -1,5 +1,31 @@
 .main {
+    // .main__header
+    margin-top: 20px;
+
+    &__header {}
+
     // .main__grid
 
     &__grid {}
+
+    // .main__item
+
+    &__item {}
+
+    // .main__item--header
+
+    &__item--header {}
+
+    // .main__item--img
+
+    &__item--img {}
+
+    // .main__item--price
+
+    &__item--price {}
+
+    // .main__item--button
+
+    &__item--button {}
+
 }
