@@ -1,18 +1,88 @@
 .item {
 
+    // .item_section
+
+    &__section {
+        /* skins buy */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 132px;
+        height: 132px;
+        margin-top: 20px;
+        /* Background color/color-layer-alt-2 */
+
+        background: #253044;
+        border-radius: 12px;
+        margin: 13px;
+        padding: 5px;
+    }
+
     // .item__header
 
-    &__header {}
+    &__header {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 7px;
+        line-height: 130%;
+        /* identical to box height, or 9px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
 
     // .item__img
 
-    &__img {}
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    &__img--obj {}
 
     // .item__price
 
-    &__price {}
+    &__price {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 7px;
+        line-height: 150%;
+        margin-top: 10px;
+        /* identical to box height, or 10px */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #C2C2C2;
+    }
 
     // .item__button
 
-    &__button {}
+    &__button {
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 99px;
+        height: 14px;
+        margin-top: 5px;
+
+        /* Primary color/color-primary-1 */
+
+        background: #0DE5A0;
+        border-radius: 4px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6px;
+        line-height: 150%;
+    }
 }
