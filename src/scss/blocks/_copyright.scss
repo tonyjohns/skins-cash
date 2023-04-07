@@ -1,0 +1,29 @@
+.copyright {
+
+    // .copyright__text
+
+    &__section {
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+        margin-bottom: 70px;
+    }
+
+    &__text {
+        width: 780px;
+        /* Caption Regular */
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        /* or 16px */
+
+        text-align: center;
+
+        /* Typography/color-text-body */
+
+        color: #B6BDCC;
+    }
+}

@@ -11,7 +11,7 @@
 
         width: 132px;
         height: 132px;
-        margin-top: 20px;
+
         /* Background color/color-layer-alt-2 */
 
         background: #253044;
@@ -23,11 +23,18 @@
     // .item__header
 
     &__header {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    &__header--text {
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 600;
         font-size: 7px;
         line-height: 130%;
+        padding-left: 10px;
         /* identical to box height, or 9px */
 
         text-align: center;
@@ -84,5 +91,18 @@
         font-weight: 700;
         font-size: 6px;
         line-height: 150%;
+    }
+
+    &__button:hover {
+        background: #08b874;
+        /* a slightly darker shade of the primary color */
+        cursor: pointer;
+    }
+
+    &__button:active {
+        background: #06a768;
+        /* a slightly darker shade than the hover state */
+        box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+        /* adding a box shadow to give the button a pressed effect */
     }
 }
